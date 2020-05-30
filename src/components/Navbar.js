@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react'
 import { Link } from 'gatsby'
 import logo from '../img/LUMES-logo.png'
@@ -23,11 +24,11 @@ const Navbar = class extends React.Component {
         // set the class in state for the navbar accordingly
         this.state.active
           ? this.setState({
-              navBarActiveClass: 'is-active',
-            })
+            navBarActiveClass: 'is-active',
+          })
           : this.setState({
-              navBarActiveClass: '',
-            })
+            navBarActiveClass: '',
+          })
       }
     )
   }
@@ -61,10 +62,10 @@ const Navbar = class extends React.Component {
           >
             <div className="navbar-start has-text-centered">
               <Link className="navbar-item" to="/archive">
-                Archive
+                Publicaciones
               </Link>
               <Link className="navbar-item" to="/about">
-                About
+                Sobre esta Web
               </Link>
             </div>
             <div className="navbar-end has-text-centered">
